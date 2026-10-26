@@ -1,0 +1,26 @@
+.gitignore
+  h_7210afd2ca356a 1-2
+README.md
+  h_7210afd2ca356a 1-28
+content.js
+  h_7210afd2ca356a 1-473
+manifest.json
+  h_7210afd2ca356a 1-27
+popup.css
+  h_7210afd2ca356a 1-119
+popup.html
+  h_7210afd2ca356a 1-51
+popup.js
+  h_7210afd2ca356a 1-39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "0816fdfa8ffbc407ca653ba29564c45446d43d24",
+  "prompts": {},
+  "humans": {
+    "h_7210afd2ca356a": {
+      "author": "Hitesh Patwari <1669655+hiteshpatwari@users.noreply.github.com>"
+    }
+  }
+}
