@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Capital One Offers Miles Sorter</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="popup">
+      <header class="hero">
+        <h1>Capital One Offers Miles Sorter</h1>
+        <p>Sort offer tiles by highest miles, lowest miles, highest X multiples, or the original page order.</p>
+      </header>
+
+      <section class="panel">
+        <label class="field">
+          <span>Default sort</span>
+          <select id="defaultSort">
+            <option value="highest">Highest miles first</option>
+            <option value="lowest">Lowest miles first</option>
+            <option value="highestX">Highest X multiples first</option>
+            <option value="original">Original order</option>
+          </select>
+        </label>
+
+        <label class="checkbox">
+          <input id="autoSort" type="checkbox">
+          <span>Apply the default sort automatically when the offers page opens</span>
+        </label>
+
+        <button id="saveButton" type="button">Save settings</button>
+        <p id="status" class="status" aria-live="polite"></p>
+      </section>
+
+      <section class="panel">
+        <h2>How to use it</h2>
+        <ol>
+          <li>Open a page on <code>capitaloneoffers.com</code>.</li>
+          <li>Find the <strong>Miles sorter</strong> bar above the main offers grid.</li>
+          <li>Choose <strong>Highest miles</strong>, <strong>Lowest miles</strong>, <strong>Highest X multiples</strong>, or <strong>Original</strong>.</li>
+        </ol>
+      </section>
+
+      <section class="panel note">
+        <p>If the page shows a full-screen table or a yellow <strong>Show list</strong> button, another sorter extension or userscript is active. Disable that one first.</p>
+      </section>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
